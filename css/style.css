@@ -1,0 +1,97 @@
+body {
+  font-family: "PT Serif", "PT Sans", serif;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section h2 {
+  text-align: center;
+  color: #000;
+  background-color: #efdecd;
+  border-radius: .5em;
+}
+
+section h3 {
+  color: #228b22;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-color: #000;
+  border-radius: .5em;
+  padding: .5em 1em;
+  margin: .5em;
+  text-decoration: none;
+  background-color: #228b22;
+}
+
+nav a:hover {
+  background-color: #8db600;
+}
+
+nav a:link {
+  color: #fff;
+}
+
+nav a:visited {
+  color: #fff;
+}
+
+nav a:active{
+  color: #fff;
+}
+
+#people-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 120px 120px;
+}
+
+article p a:link {
+  color: #000;
+}
+
+article p a:visited {
+  color: #000;
+}
+
+article p a:hover {
+  color: #000;
+}
+
+article p a:active {
+  color: #000;
+}
+
+footer a:link {
+  color: #228b22;
+}
+
+footer a:visited {
+  color: #228b22;
+}
+
+footer a:hover {
+  color: #228b22;
+}
+
+footer a:active {
+  color: #228b22;
+}
