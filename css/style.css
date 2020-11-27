@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
 body {
-  font-family: "PT Serif", "PT Sans", serif;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 300;
   font-size: 16px;
+}
+
+h1
+h2
+h3
+h4{
+  font-weight: 400;
 }
 
 header {
@@ -10,17 +20,6 @@ header {
 main {
   max-width: 700px;
   margin: 0 auto;
-}
-
-section h2 {
-  text-align: center;
-  color: #000;
-  background-color: #efdecd;
-  border-radius: .5em;
-}
-
-section h3 {
-  color: #228b22;
 }
 
 nav ul {
@@ -39,11 +38,11 @@ nav ul li a {
   padding: .5em 1em;
   margin: .5em;
   text-decoration: none;
-  background-color: #228b22;
+  background-color: #540e58;
 }
 
 nav a:hover {
-  background-color: #8db600;
+  background-color: #cca1cf;
 }
 
 nav a:link {
@@ -58,40 +57,39 @@ nav a:active{
   color: #fff;
 }
 
-#people-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 120px 120px;
+main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  padding-top: 30px;
+  width: 400px;
 }
 
-article p a:link {
-  color: #000;
+main img p{
+  width: 400px;
 }
 
-article p a:visited {
-  color: #000;
+#who-am-i img{
+  width: 350px;
 }
 
-article p a:hover {
-  color: #000;
+#who-am-i figure{
+  float: right;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom:15px;
 }
 
-article p a:active {
-  color: #000;
+#high-school-tennis img{
+  float: right;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 240px
 }
 
-footer a:link {
-  color: #228b22;
-}
-
-footer a:visited {
-  color: #228b22;
-}
-
-footer a:hover {
-  color: #228b22;
-}
-
-footer a:active {
-  color: #228b22;
+h3 {
+  color: #cca1cf;
 }
